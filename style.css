@@ -1,1 +1,75 @@
-/* Your CSS styles go here */
+
+    #h1{
+      font-family: "Comic Sans MS";
+      background-color: darkcyan;
+      color: white;
+    }
+
+    #h2{
+    	font-family: "Comic Sans MS"; 
+    	color:darkblue;
+    }
+    #h3{
+      font-family: "Comic Sans MS"; 
+      color:darkblue;
+    }
+
+    .section1{ 	
+        background-color:rgba(138,188,159,0.5);
+    }
+    .section1:hover {
+       background-color: lightgreen;
+      
+    }
+
+    .section2{ 
+        background-color: lightblue;
+     
+   }
+    
+    #table{
+    	font-family: Arial, Verdana, sans-serif;
+    	color: white;
+
+    	background-color:rgba(120,160,220,0.8) ;
+    	
+    }
+
+    @media screen and (max-width: 1366px){
+      .section1{
+        width:100%;
+      }
+      #table{
+        width: 600px;
+      }
+      tr td:first-child {background: darkblue; font-weight:bold;font-size:1.3em;}
+
+    }
+
+    @media screen and (max-width: 600px){
+      .section1{
+        width:100%;
+      }
+      #table{
+        width: auto;
+        height:auto;
+      }
+      tr td:first-child {background: darkblue; font-weight:bold;font-size:1.3em;}
+
+    }
+   bottom: {
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    
+   }
+
+   bottom :hover {
+    background-color: #4CAF50; 
+    color: white;
+    
+   }
+      
+    }
+		
+	}
+
